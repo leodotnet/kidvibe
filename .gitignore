@@ -1,0 +1,625 @@
+# KidVibe 项目 .gitignore 文件
+
+# ===== 系统文件 =====
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ===== 编辑器文件 =====
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-project
+*.sublime-workspace
+
+# ===== 日志文件 =====
+*.log
+logs/
+*.out
+*.pid
+
+# ===== 临时文件 =====
+*.tmp
+*.temp
+*.bak
+*.backup
+*.old
+*.orig
+
+# ===== Python 后端 =====
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*/__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+.python-version
+
+# pipenv
+Pipfile.lock
+
+# PEP 582
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# ===== Node.js 前端 =====
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# nyc test coverage
+.nyc_output
+
+# Grunt intermediate storage
+.grunt
+
+# Bower dependency directory
+bower_components
+
+# node-waf configuration
+.lock-wscript
+
+# Compiled binary addons
+build/Release
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# Next.js build output
+.next
+out/
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+public
+
+# Vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# FuseBox cache
+.fusebox/
+
+# DynamoDB Local files
+.dynamodb/
+
+# TernJS port file
+.tern-port
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
+
+# yarn v2
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# ===== 数据库文件 =====
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.db-wal
+*.db-shm
+
+# ===== 环境变量文件 =====
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+.env.staging
+
+# ===== 密钥和证书 =====
+*.key
+*.pem
+*.crt
+*.cert
+*.p12
+*.pfx
+*.jks
+
+# ===== Docker =====
+.dockerignore
+docker-compose.override.yml
+
+# ===== 备份文件 =====
+*.backup
+*.bak
+*.old
+*.orig
+*.save
+
+# ===== 压缩文件 =====
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# ===== 媒体文件 =====
+*.mp4
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.mkv
+
+# ===== 音频文件 =====
+*.mp3
+*.wav
+*.flac
+*.aac
+*.ogg
+
+# ===== 图片文件（可选，根据需要取消注释） =====
+# *.jpg
+# *.jpeg
+# *.png
+# *.gif
+# *.bmp
+# *.tiff
+# *.svg
+
+# ===== 文档文件（可选，根据需要取消注释） =====
+# *.pdf
+# *.doc
+# *.docx
+# *.xls
+# *.xlsx
+# *.ppt
+# *.pptx
+
+# ===== 项目特定文件 =====
+# KidVibe 特定忽略
+backend/kidvibe.db
+backend/kidvibe.db-journal
+backend/kidvibe.db-wal
+backend/kidvibe.db-shm
+
+# AI 模型文件
+models/
+*.bin
+*.gguf
+*.safetensors
+
+# 缓存文件
+.cache/
+cache/
+tmp/
+
+# 测试覆盖率报告
+coverage/
+.nyc_output/
+
+# 性能分析文件
+*.prof
+*.profile
+
+# 调试文件
+*.debug
+debug/
+
+# 监控文件
+monitoring/
+metrics/
+
+# 部署文件
+deploy/
+dist/
+build/
+
+# 本地配置
+local_config/
+config.local.*
+
+# 用户特定文件
+user_data/
+personal/
+
+# 实验性文件
+experiments/
+experimental/
+
+# 临时构建文件
+.temp/
+.tmp/
+temp/
+tmp/
+
+# ===== IDE 和编辑器特定 =====
+# VSCode
+.vscode/settings.json
+.vscode/launch.json
+.vscode/tasks.json
+
+# IntelliJ IDEA
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/usage.statistics.xml
+.idea/dictionaries/
+.idea/shelf/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# ===== 操作系统特定 =====
+# macOS
+.AppleDouble
+.LSOverride
+Icon
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.tmp
+*.temp
+Desktop.ini
+$RECYCLE.BIN/
+*.cab
+*.msi
+*.msix
+*.msm
+*.msp
+*.lnk
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+.nfs*
+
+# ===== 开发工具特定 =====
+# Git
+.git/
+.gitignore
+.gitattributes
+
+# Mercurial
+.hg/
+.hgignore
+
+# SVN
+.svn/
+
+# CVS
+CVS/
+.cvsignore
+
+# ===== 云服务特定 =====
+# AWS
+.aws/
+
+# Google Cloud
+.gcloud/
+
+# Azure
+.azure/
+
+# Heroku
+.env.local
+.env.*.local
+
+# ===== 安全相关 =====
+# 密钥文件
+*.key
+*.pem
+*.crt
+*.p12
+*.pfx
+
+# 密码文件
+passwords.txt
+secrets.txt
+credentials.txt
+
+# 配置文件中的敏感信息
+config/secrets/
+secrets/
+
+# ===== 性能监控 =====
+# 性能分析文件
+*.prof
+*.profile
+
+# 内存转储
+*.dump
+*.hprof
+
+# 系统监控
+system_monitor/
+performance_logs/
+
+# ===== 测试相关 =====
+# 测试输出
+test-results/
+test-output/
+junit.xml
+test-report.xml
+
+# 模拟数据
+mock_data/
+test_data/
+fixtures/
+
+# ===== 文档生成 =====
+# 自动生成的文档
+docs/generated/
+docs/build/
+docs/_build/
+
+# API 文档
+api-docs/
+swagger/
+
+# ===== 部署相关 =====
+# 部署脚本
+deploy/
+deployment/
+
+# 构建产物
+dist/
+build/
+out/
+
+# 容器镜像
+*.tar
+*.tar.gz
+
+# ===== 备份和归档 =====
+# 备份文件
+backup/
+backups/
+*.backup
+*.bak
+
+# 归档文件
+archive/
+archives/
+
+# ===== 本地开发 =====
+# 本地配置文件
+local/
+local_config/
+config.local.*
+
+# 开发数据
+dev_data/
+development_data/
+
+# 个人设置
+personal/
+user_settings/
+
+# ===== 其他 =====
+# 空目录占位符
+!.gitkeep
+!.gitignore
+
+# 许可证文件（通常需要保留）
+# !LICENSE
+# !license.txt
+
+# README 文件（通常需要保留）
+# !README.md
+# !README.txt
+
+# 配置文件模板（通常需要保留）
+# !*.example
+# !*.template
+# !*.sample 
+
+backend/app/__pycache__/*
